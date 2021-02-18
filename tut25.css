@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar  */
+#navbar{
+
+    display: flex;
+    position: relative;
+   
+
+}
+
+.logo{
+    margin: -13px -29px;
+}
+
+.logo img{
+
+    margin: 25px 40px;
+    height: 70px;
+    width: 70px;
+
+}
+
+#navbar ul{
+
+    display: flex;
+   margin: 10px;
+}
+#navbar::before{
+
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+  margin: 4px;
+}
+
+#navbar ul li a{
+    color: white;
+ text-decoration: none;
+    margin: 17px;
+    display: block;
+    padding: 3px -1px;
+    border-radius: 7px;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* Home section  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/food-1932466__480.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+ 
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    
+}
+#home h1{
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* services section  */
+    .services{
+        margin: 40px;
+    }
+#services{
+   margin: px; 
+   display: flex;
+}
+#services .box{
+border:2px solid brown;
+padding: 34px;
+margin: 3px 3px;
+border-radius: 35px;
+background: rgb(231, 227, 227);
+height: 166px;
+margin-bottom: 34px;
+
+}
+#services .box img{
+height: 110px;
+margin: auto;
+display: block;
+margin-top: -23px;
+}
+#services{
+
+}
+ h3{
+    margin-top: 9px;
+}
+
+/* client section  */
+.client-section{
+   height: 344px;
+  
+}
+.client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://cdn.pixabay.com/photo/2016/10/07/13/36/tangerines-1721590__480.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.88;
+    margin-left: -40px;
+}
+  #clients{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }  
+  .client-items{
+      padding: 34px;
+  }
+  #clients img{
+      height: 70px;
+  }
+
+  /* Contact us  */
+  .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -20px;
+  }
+.container::before{
+    content: "";
+    position: absolute;
+    background: url();
+}
+
+.form input{
+    width: 30%;
+    padding: 7px;
+    margin: 3px 4px;
+    height: 40px;
+}
+.group input{
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility classes  */
+.h-primary{
+    font-size: 3.1rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+margin: 17px;
+font-size: 1.5rem;
+border-radius: 10px;
+cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+/* .services h1{
+    color: white;
+}
+.container h2{
+    color: white;
+} */
